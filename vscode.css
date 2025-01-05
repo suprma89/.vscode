@@ -1,0 +1,763 @@
+* {
+    border-radius: 0px !important;
+    border: none !important;
+    font-family: "Space Mono", monospace !important;
+    box-shadow: none !important;
+}
+
+.codicon,
+.statusbar-item,
+.monaco-action-bar .action-item .action-label.codicon {
+    font-family: "Codicon" !important;
+}
+
+.monaco-workbench .editor-group .tab.active {
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    font-family: "Space Mono";
+}
+
+.monaco-workbench .editor-group .tab:hover {
+    border: none !important;
+    box-shadow: none !important;
+    font-family: "Space Mono";
+}
+
+.monaco-workbench .editor-group .tab:before {
+    display: none !important;
+    font-family: "Space Mono";
+}
+
+.monaco-workbench .monaco-editor.focused {
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: "Space Mono";
+}
+
+.monaco-workbench .editor-group .tab.focused {
+    border: none !important;
+    box-shadow: none !important;
+    font-family: "Space Mono";
+}
+
+.monaco-workbench .monaco-editor .focused {
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: "Space Mono";
+}
+
+.monaco-workbench .monaco-editor .cursor {
+    border: none !important;
+    font-family: "Space Mono";
+}
+
+.activity-bar :is(.settings-icon, .configuration-icon) {
+    display: none !important;
+}
+
+ .action-toolbar-container {
+    display: none !important;
+ }
+
+ /* .editor-actions {
+    display: none !important;
+ } */
+
+ .codicon-toolbar-more {
+    display: none !important;
+ }
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center {
+    margin-left: 50px;
+    padding-left: 2px !important;
+    order: -1 !important;
+    color: rgba(0, 0, 0, 0) !important;
+    /* display: none !important; */
+}
+
+/* .titlebar-center::before {
+    content: '▓▒░ vscode ░▒▓';
+    background-color: #56ff01;
+    color: black;
+} */
+
+.checked {
+    background: black !important;
+    border-color: black !important;
+    outline-color: black !important;
+}
+
+.active-item-indicator {
+    display: none;
+}
+
+.monaco-editor .find-widget .monaco-editor .find-widget .monaco-inputbox.idle,
+.monaco-editor .find-widget .monaco-editor .replace-widget .monaco-inputbox.idle {
+    border-color: #000000 !important;
+}
+
+.monaco-editor .find-widget .monaco-inputbox,
+.monaco-editor .replace-widget .monaco-inputbox {
+    border: 1px solid #000000 !important;
+}
+
+.line-numbers {
+    position: relative !important;
+    margin-left: 2px;
+    margin-right: 10px;
+    font-size: 12px !important;
+    font-family: "Space Mono";
+    opacity: .5;
+}
+
+.monaco-editor .scroll-decoration {
+    top: -6px !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+    display: none !important;
+}
+
+.part.sidebar {
+    box-shadow: none !important;
+}
+
+.monaco-list.list_id_1 .monaco-list-row.selected {
+    opacity: 1 !important;
+}
+
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+/* .monaco-workbench .part.sidebar .title-actions .actions-container {
+    display: none;
+} */
+
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row
+.monaco-icon-label .label-name {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #FFF !important;
+}
+
+.monaco-scrollable-element>.shadow.top {
+    box-shadow: none !important;
+    top: -3px !important;
+}
+
+.composite.title {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-items: center !important;
+}
+.composite.title h2 {
+    font-size: 13px !important;
+    text-transform: uppercase;
+}
+
+.composite.title h2::before {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 1.1rem;
+}
+
+.slider {
+    position: absolute !important;
+    right: 1px !important;
+    width: 6px !important;
+    left: auto !important;
+}
+
+.codicon-toolbar-more, .codicon-word-wrap {
+    display: block !important;
+}
+
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
+    padding: 10px !important;
+    backdrop-filter: blur(3px) !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    border: none !important;
+    background: transparent !important;
+}
+
+.titlebar-left {
+    justify-content: flex-start !important;
+    flex-grow: 0 !important;
+    width: auto !important;
+}
+
+.search-label {
+    font-size: 13px !important;
+    color: #fff;
+    display: none;
+}
+
+.search-icon {
+    display: none !important;
+}
+
+.codicon-search::before {
+    display: none !important;
+}
+
+.codicon-arrow-right, .codicon-arrow-left {
+    display: none !important;
+}
+
+.titlebar-right > * {
+    display: none !important;
+}
+
+.quick-input-widget {
+    transform: translateY(-100%) !important;
+    top: 100% !important;
+    left: 340px !important;
+    border: none !important;
+    min-width: 86% !important;
+    width: 90%;
+    max-width: 92% !important;
+    background:rgba(0, 0, 0, 0) !important;
+}
+
+.quick-input-header {
+    background:rgba(0, 0, 0, 0) !important;
+    height: 0px !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: -50px !important;
+    left: 20px !important;
+}
+
+.quick-input-list-separator {
+    display: none !important;
+}
+
+.monaco-input-box .idle .synthetic-focus{
+    background:rgba(0, 0, 0, 0) !important;
+    /* height: 0px !important; */
+    width: 100% !important;
+    input {
+        background:rgba(0, 0, 0, 0) !important;
+        /* height: 0px !important; */
+        width: 100% !important;
+    }
+}
+
+.synthetic-focus {
+    background:rgba(0, 0, 0, 0) !important;
+    /* height: 0px !important; */
+    width: 100% !important;
+}
+
+.monaco-list .list_id_1 {
+    /* height: 0px !important; */
+    width: 100% !important;
+}
+
+.monaco-list .list_id_2 {
+    /* height: 0px !important; */
+    width: 100% !important;
+}
+
+.ibwrapper {
+    background:rgba(0, 0, 0, 0) !important;
+    /* height: 0px !important; */
+    width: 100% !important;
+}
+
+div .quick-input-header {
+    background:rgba(0, 0, 0, 0) !important;
+    height: 0px !important;
+    width: 100% !important;
+    /* display: none !important; */
+}
+
+.quick-input-widget .monaco-scrollable-element {
+    padding: 0px !important;
+    left: 0px !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    height: 18.5px !important;
+    background:rgba(0, 0, 0, 0) !important;
+}
+
+.list_id_1,
+.list_id_2 {
+    background: black !important;
+    margin-top: 6px !important;
+    min-height: 20px !important;
+}
+
+.monaco-icon-label-container {
+    padding: 2px !important;
+    padding-top: 0px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.quick-input-widget .monaco-scrollable-element .mac {
+    width: 100% !important;
+}
+
+.eonaco-list-rows {
+    background: transparent !important;
+}
+
+.monaco-list-row:hover {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+    background: none !important;
+}
+
+.quick-input-filter .monaco-inputbox {
+    padding: 8px !important;
+    background-color: rgba(34, 34, 34, .40) !important;
+    font-size: 13px !important;
+    margin-bottom: 16px !important;
+    border: none !important;
+}
+
+.monaco-inputbox input::placeholder {
+    color: rgba(255, 255, 255, .3) !important;
+}
+
+.editor-group-watermark {
+    max-width: none !important;
+}
+
+.command-center-center {
+    width:  auto !important;
+}
+
+.monaco-editor .inputarea ::selection {
+    background: #3e3d3d !important;
+    color: #ffffff !important;
+}
+
+.letterpress {
+    display: none !important;
+}
+
+.shortcuts {
+    display: none !important;
+}
+
+.monaco-action-bar {
+    /* width: 40% !important; */
+    cursor: default !important;
+}
+
+.codicon-close {
+    /* display: none !important; */
+    cursor: default !important;
+}
+
+.codicon-close::before {
+    content: '-';
+    content-visibility: visible;
+    cursor: default !important;
+}
+
+.dirty {
+    background: #2e252bab !important;
+}
+
+.dirty .codicon-close::before {
+    content: '!' !important;
+    content-visibility: visible;
+    cursor: default !important;
+}
+
+.tab {
+    width: 20% !important;
+    cursor: default !important;
+}
+
+.tab-actions-right {
+    width: 20% !important;
+}
+
+/* .action-label.codicon{
+    width: 30px !important;
+} */
+
+.action-label.codicon.codicon-explorer-view-icon {
+     width: 200px !important;
+}
+
+.action-label.codicon.codicon-explorer-view-icon::before {
+    content: '<e>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.action-label.codicon.codicon-search-view-icon::before {
+    content: '<f>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.action-label.codicon.codicon-source-control-view-icon::before {
+    content: '<g>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.action-label.codicon.codicon-run-view-icon::before {
+    content: '<d>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.action-label.codicon.codicon-extensions-view-icon::before {
+    content: '<x>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-find-previous-match::before {
+    content: '<' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-find-next-match::before {
+    content: '>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-find-selection::before {
+    content: '[]' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-test-view-icon::before {
+    content: '<t>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-find-collapsed::before,
+.codicon-find-expanded::before {
+    content: '' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+
+.codicon-case-sensitive::before {
+    content: 'A' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-whole-word::before {
+    content: '_' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-regex::before {
+    content: '*' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-preserve-case::before {
+    content: 'AA' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-find-replace::before {
+    content: '1' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-find-replace-all::before {
+    content: 'n' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-bell::before {
+    content: '-' !important;
+    color: rgb(52, 51, 51) !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-error::before {
+    content: 'E' !important;
+    color: rgb(52, 51, 51) !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-warning::before {
+    content: '!' !important;
+    color: rgb(52, 51, 51) !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-clear-all::before {
+    content: 'cl' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-lock::before {
+    content: 'lk' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-trash::before {
+    content: 'del' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-remote-explorer-view-icon {
+     width: 200px !important;
+}
+
+.codicon-remote-explorer-view-icon::before {
+    content: '<s>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-debug-console-clear-all::before {
+    content: mportant;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-filter::before {
+    content: 'f' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-list-flat::before {
+    content: 'ls' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-gear::before {
+    content: '>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-split-horizontal::before {
+    content: '/' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-accounts-view-bar-icon::before {
+    content: '@' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-toolbar-more::before {
+    content: '' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-debug-configure::before {
+    content: '/' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-arrow-left::before {
+    content: '<' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-arrow-right::before {
+    content: '>' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-search-clear-results::before {
+    content: 'c' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-search-new-editor::before {
+    content: 'n' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-search-list::before {
+    content: 'l' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-search-refresh::before {
+    content: 'r' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-search-collapse-results::before {
+    content: '<' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-remote::before {
+    content: '~' !important;
+    color: rgb(78, 78, 78) !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.remote-kind {
+    background-color: #56ff01 !important;
+}
+
+.codicon-remote-explorer-view-icon::before {
+    content: '~' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-copilot::before {
+    content: '?' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-search-replace-all::before {
+    content: 'n' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-book::before {
+    content: 'i' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.codicon-settings-view-bar-icon::before {
+    content: '/' !important;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.uri-icon {
+    display: none;
+}
+
+.uri-icon::before {
+    content: '<>' !important;
+    content-visibility: visible;
+    color: white !important;
+    display: inline-block !important;
+    font-family: "Space Mono";
+}
+
+.matchesCount {
+    position: absolute !important;
+    top: -3px !important;
+    right: 32px !important;
+}
+
+.find-widget {
+    padding-top: 14px !important;
+    width: 100% !important;
+    height: 88px !important;
+}
+
+.find-part, .replace-part {
+    padding: 2px;
+    margin-left: 4px;
+    outline: none !important;
+    border: none !important;
+    .monaco-inputbox {
+        outline: none !important;
+        border: none !important;
+    }
+}
+
+.idle {
+    outline: none !important;
+    border: none !important;
+}
+
+.monaco-sash {
+    cursor: default !important;
+}
+
+.statusbar-item-label {
+    color:rgb(52, 51, 51) !important;
+}
